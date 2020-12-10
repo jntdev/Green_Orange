@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('font/caviardreams-webfont.woff2') format('woff2'), url('font/caviardreams-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 1000px;
+    background: white;
+}
+
+.Logo {
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+.soustitre>p {
+    margin-top: -9px;
+    margin-left: 35px;
+    font-family: 'caviar_dreamsregular';
+    color: rgb(134, 134, 134);
+}
+
+.header {
+    position: relative;
+    margin-top: -135px;
+    margin-left: 15px;
+}
+
+.demarquage {
+    border-bottom: 2px solid #68aa49;
+}
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    height: 15px;
+    width: 300px;
+    margin-top: -17px;
+    margin-left: 130px;
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 2px solid #68aa49;
+}
+
+.onglet>p {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 11px;
+    color: white;
+}
+
+.onglet {
+    background-color: #68aa49;
+    width: 55px;
+    height: 12px;
+    margin-left: 2px;
+    margin-top: 1px;
+    border: 2px solid #12a112;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.clearer {
+    clear: both;
+}
+
+/* ZONE BOT */
+
+.bot {
+    position: relative;
+    width: 500px;
+    display: flex;
+    margin-top: 0px;
+}
+
+/* ZONE BOT LEFT */
+
+.who {
+    background-color: rgb(255, 255, 255);
+    margin-left: 15px;
+    height: 180px;
+    width: 160px;
+}
+
+/* TITRE WHO WE ARE  */
+
+h2 {
+    font-family: 'caviar_dreamsregular';
+    color: orange;
+    font-size: 30px;
+    text-align: justify;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+/* LOREM descriptif BOT LEFT */
+
+.who p {
+    font-size: 9px;
+    text-align: left;
+}
+
+.marging {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgba(192, 192, 192, 0.466);
+    height: 200px;
+    width: 1px;
+}
+
+/* ZONE BOT RIGHT */
+
+.what {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+/* TITRE WHAT WE DO */
+
+h3 {
+    font-family: 'caviar_dreamsregular';
+    color: orange;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: -0px;
+}
+
+.what img {
+    float: left;
+    margin-right: 10px;
+}
+
+/* LOREM Descriptif BOT RIGHT */
+
+.what>p {
+    margin-top: -1px;
+    font-size: 9px;
+}
+
+/* Liste descriptive BOT RIGHT*/
+
+.liste {
+    margin-top: 25px;
+    position: flex;
+}
+
+.textspot {
+    margin-left: 15px;
+    margin-bottom: 1px;
+    background-color: rgb(236, 236, 236);
+    width: 270px;
+    height: 16px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.textspot p {
+    margin: 0;
+    padding-top: 2px;
+    font-size: 9px;
+    color: #68aa49;
+}
+
+.READ {
+    font-family: 'caviar_dreamsregular';
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.MORE {
+    display: block;
+    font-family: 'caviar_dreamsregular';
+    color: orange;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 14px;
+}
+
+.copyright>p {
+    float: right;
+    color: silver;
+    font-size: 8px;
+}
